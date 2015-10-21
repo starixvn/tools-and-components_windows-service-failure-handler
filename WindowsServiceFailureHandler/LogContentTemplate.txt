@@ -1,0 +1,5 @@
+﻿
+Service Name: @Model.ServiceName
+Error Time: @Model.LoggedTime
+Error Message: This service runs failed!
+@Model.ErrorMessage

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceFailureHandler", "WindowsServiceFailureHandler\WindowsServiceFailureHandler.csproj", "{A60660FB-16BE-4D04-A4F5-3C061FBF4DC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D5DE8C6F-A1E4-4160-992A-0FE3CA7E26A2}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A60660FB-16BE-4D04-A4F5-3C061FBF4DC1}.Debug|x86.ActiveCfg = Debug|x86
+		{A60660FB-16BE-4D04-A4F5-3C061FBF4DC1}.Debug|x86.Build.0 = Debug|x86
+		{A60660FB-16BE-4D04-A4F5-3C061FBF4DC1}.Release|x86.ActiveCfg = Release|x86
+		{A60660FB-16BE-4D04-A4F5-3C061FBF4DC1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
