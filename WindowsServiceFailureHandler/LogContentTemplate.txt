@@ -1,4 +1,2 @@
-﻿The service runs failed!
-Error Time: @Model.LoggedTime
-Service Name: @Model.ServiceName
+﻿The service '@Model.ServiceName' runs failed!
 @Model.ErrorMessage

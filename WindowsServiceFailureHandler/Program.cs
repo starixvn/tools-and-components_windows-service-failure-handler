@@ -11,15 +11,13 @@
             try
             {
                 var service = new FailureHandlerService();
-
                 string serviceName = service.GetServiceNameArgument(args);
 
                 if (!string.IsNullOrWhiteSpace(serviceName))
                 {
                     var failureDetail = new FailureDetail
                     {
-                        ServiceName = serviceName,
-                        LoggedTime = DateTime.Now
+                        ServiceName = serviceName
                     };
 
                     EventLogEntry latestLogEntry = service.GetLatestEventEntry(serviceName);
@@ -27,7 +25,6 @@
                     if (latestLogEntry != null)
                     {
                         failureDetail.ErrorMessage = latestLogEntry.Message;
-                        failureDetail.LoggedTime = latestLogEntry.TimeWritten;
                     }
 
                     string logContent = service.GetLogContent(failureDetail);
